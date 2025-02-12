@@ -11,7 +11,7 @@ $result = $conn->query($sql);
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Pengumpulan Tugas</title>
+    <title>Elektronika || Matahari</title>
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
     <style>
@@ -169,6 +169,7 @@ $result = $conn->query($sql);
     <br>
 
     <h2 class="text-center">Upload Tugas</h2>
+    <h2 class="text-center">*cara pakai : klik kanan lalu save as untuk melihat file</h2>
     <br>
     <form action="upload.php" method="POST" enctype="multipart/form-data">
         <div class="form-group">
@@ -254,3 +255,4 @@ $result = $conn->query($sql);
 
 </body>
 </html>
+
